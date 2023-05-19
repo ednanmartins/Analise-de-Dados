@@ -1,0 +1,10 @@
+# Aula 05 - Tipos de Variaveis
+
+# Numericas: 
+Continuas e Discreta
+
+
+# Categoricas: 
+Nominais (dados não mensuraveis) e Ordinais (dados categorizados com ordenamento)
+
+
