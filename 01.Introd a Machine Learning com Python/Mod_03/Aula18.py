@@ -20,7 +20,9 @@ def trataIdade(dataset, col_idade):
 
 
 def refazX_credit():
-    base_credit = pd.read_csv("credit_data.csv")
+    base_credit = pd.read_csv(
+        "F:/Meus Documentos/Ednan Martins/Área de Trabalho/Ednan Pro/Cursos/Analise de Dados/01.Introd a Machine Learning com Python/Mod_02/credit_data.csv"
+    )
 
     if (base_credit["age"] < 0).any or (base_credit["age"].isnull()).any:
         trataIdade(base_credit, "age")
@@ -31,7 +33,9 @@ def refazX_credit():
 
 
 def refazY_credit():
-    base_credit = pd.read_csv("credit_data.csv")
+    base_credit = pd.read_csv(
+        "F:/Meus Documentos/Ednan Martins/Área de Trabalho/Ednan Pro/Cursos/Analise de Dados/01.Introd a Machine Learning com Python/Mod_02/credit_data.csv"
+    )
 
     if (base_credit["age"] < 0).any or (base_credit["age"].isnull()).any:
         trataIdade(base_credit, "age")
