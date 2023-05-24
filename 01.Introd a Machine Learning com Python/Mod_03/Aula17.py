@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px  # Biblioteca de visualização de dados interativa"""
 
 base_census = pd.read_csv("census.csv")
+print(base_census)
 
 # Inicializando objetos LabelEncoder para cada atributo categórico a ser codificado
 label_encoder_workclass = LabelEncoder()
