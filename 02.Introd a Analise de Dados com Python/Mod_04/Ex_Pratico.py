@@ -51,6 +51,9 @@ acoes_bancos = acoes_bancos.rename(
 
 acoes_bancos.isnull().sum()  # Soma dos valores nulos em cada coluna
 
+acoes_bancos.to_csv("acoes_bancos.csv")
+print("Salvo com Sucesso!!")
+
 # GRAFICO DE HISTOGRAMA
 for i in np.arange(len(acoes_bancos.columns)):
     plt.figure(figsize=(10, 50))  # plt.figure(figsize=(largura, altura))
